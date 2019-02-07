@@ -17,6 +17,13 @@
             text-align: left;
             width: 131px;
         }
+        .auto-style4 {
+            text-align: left;
+            width: 539px;
+        }
+        .auto-style5 {
+            margin-left: 600px;
+        }
     </style>
 </head>
 <body>
@@ -26,32 +33,40 @@
         </div>
         <table style="width:100%;">
             <tr>
+                <td class="auto-style4"> 
+                    &nbsp;</td>
                 <td class="auto-style3"> 
-        <asp:Label ID="Label1" runat="server" Text="First Name :"></asp:Label>
+        <asp:Label ID="Label1" runat="server" Text="First Name :" ForeColor="#006600"></asp:Label>
                 </td>
                 <td>
         <asp:TextBox ID="Fname" runat="server"></asp:TextBox>
                 </td>
             </tr>
             <tr>
+                <td class="auto-style4">
+                    &nbsp;</td>
                 <td class="auto-style3">
-        <asp:Label ID="Label2" runat="server" Text="Middle Name :"></asp:Label>
+        <asp:Label ID="Label2" runat="server" Text="Middle Name :" ForeColor="#006600"></asp:Label>
                 </td>
                 <td>
         <asp:TextBox ID="Mname" runat="server"></asp:TextBox>
                 </td>
                </tr>
             <tr>
+                <td class="auto-style4">
+                    &nbsp;</td>
                 <td class="auto-style3">
-        <asp:Label ID="Label7" runat="server" Text="Last Name :"></asp:Label>
+        <asp:Label ID="Label7" runat="server" Text="Last Name :" ForeColor="#006600"></asp:Label>
                 </td>
                 <td>
         <asp:TextBox ID="Lname" runat="server"></asp:TextBox>
                 </td>
                </tr>
             <tr>
+                <td class="auto-style4">
+                    &nbsp;</td>
                 <td class="auto-style3">
-        <asp:Label ID="Label6" runat="server" Text="Sex :"></asp:Label>
+        <asp:Label ID="Label6" runat="server" Text="Sex :" ForeColor="#006600"></asp:Label>
                 </td>
                 <td>
         <asp:DropDownList ID="Sex" runat="server">
@@ -59,8 +74,10 @@
                 </td>
                </tr>
             <tr>
+                <td class="auto-style4">
+                    &nbsp;</td>
                 <td class="auto-style3">
-        <asp:Label ID="Label3" runat="server" Text="DOB :"></asp:Label>
+        <asp:Label ID="Label3" runat="server" Text="DOB :" ForeColor="#006600"></asp:Label>
                 </td>
                 <td>
         <asp:TextBox ID="DOB" runat="server" TextMode ="Date"></asp:TextBox>
@@ -68,8 +85,10 @@
                 </td>
                </tr>
             <tr>
+                <td class="auto-style4">
+                    &nbsp;</td>
                 <td class="auto-style3">
-        <asp:Label ID="Label8" runat="server" Text="Nationality:"></asp:Label>
+        <asp:Label ID="Label8" runat="server" Text="Nationality:" ForeColor="#006600"></asp:Label>
                 </td>
                 <td>
         <asp:DropDownList ID="Nationality" runat="server" Height="29px" Width="130px">
@@ -78,8 +97,10 @@
                 </td>
                </tr>
             <tr>
+                <td class="auto-style4">
+                    &nbsp;</td>
                 <td class="auto-style3">
-                    <asp:Label ID="Label9" runat="server" Text="Passport Number:"></asp:Label>
+                    <asp:Label ID="Label9" runat="server" Text="Passport Number:" ForeColor="#006600"></asp:Label>
                 </td>
                 <td>
                     <asp:TextBox ID="Passport" runat="server"></asp:TextBox>
@@ -87,24 +108,30 @@
                </tr>
             
             <tr>
+                <td class="auto-style4">
+                    &nbsp;</td>
                 <td class="auto-style3">
-                    <asp:Label ID="Label10" runat="server" Text="Date of Issue:"></asp:Label>
+                    <asp:Label ID="Label10" runat="server" Text="Date of Issue:" ForeColor="#006600"></asp:Label>
                 </td>
                 <td>
                     <asp:TextBox ID="DateofIssue" runat="server" TextMode ="Date"></asp:TextBox>
                     </td>
                </tr>
              <tr>
+                <td class="auto-style4">
+                    &nbsp;</td>
                 <td class="auto-style3">
-                    <asp:Label ID="Label11" runat="server" Text="Date of Expire:"></asp:Label>
+                    <asp:Label ID="Label11" runat="server" Text="Date of Expire:" ForeColor="#006600"></asp:Label>
                  </td>
                 <td>
                     <asp:TextBox ID="DateofExpire" runat="server" TextMode ="Date"></asp:TextBox>
                     </td>
                </tr>
              <tr>
+                <td class="auto-style4">
+                    &nbsp;</td>
                 <td class="auto-style3">
-                    <asp:Label ID="Label15" runat="server" Text="Destination:"></asp:Label>
+                    <asp:Label ID="Label15" runat="server" Text="Destination:" ForeColor="#006600"></asp:Label>
                  </td>
                 <td>
                     <asp:DropDownList ID="Destination" runat="server">
@@ -112,16 +139,20 @@
                  </td>
                </tr>
              <tr>
+                <td class="auto-style4">
+                    &nbsp;</td>
                 <td class="auto-style3">
-                    <asp:Label ID="Label12" runat="server" Text="Entry Date:"></asp:Label>
+                    <asp:Label ID="Label12" runat="server" Text="Entry Date:" ForeColor="#006600"></asp:Label>
                  </td>
                 <td>
                     <asp:TextBox ID="DateofEntry" runat="server" TextMode ="Date"></asp:TextBox>
                  </td>
                </tr>
              <tr>
+                <td class="auto-style4">
+                    &nbsp;</td>
                 <td class="auto-style3">
-                    <asp:Label ID="Label13" runat="server" Text="Period:"></asp:Label>
+                    <asp:Label ID="Label13" runat="server" Text="Period:" ForeColor="#006600"></asp:Label>
                  </td>
                 <td>
                     <asp:DropDownList ID="Period" runat="server">
@@ -132,14 +163,18 @@
                  </td>
                </tr>
               <tr>
+                <td class="auto-style4">
+                    &nbsp;</td>
                 <td class="auto-style3">
-                    <asp:Label ID="Label14" runat="server" Text="Voyage Number:"></asp:Label>
+                    <asp:Label ID="Label14" runat="server" Text="Voyage Number:" ForeColor="#006600"></asp:Label>
                   </td>
                 <td>
                     <asp:TextBox ID="Voyage" runat="server"></asp:TextBox>
                   </td>
                </tr>
              <tr>
+                <td class="auto-style4">
+                    &nbsp;</td>
                 <td class="auto-style3">
                     <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Clear" />
                  </td>
@@ -148,7 +183,7 @@
                  </td>
                </tr>
         </table>
-            <div style="margin-left: 360px"> 
+            <div class="auto-style5"> 
                 <asp:Button ID="Button5" runat="server" OnClick="Button5_Click" style="margin-left: 0px" Text="Reports" />
         </div>
     </form>
